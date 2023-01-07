@@ -5,7 +5,7 @@ public class DisplayAllEnglishLetter {
         char letter = 'A';
         while (letter <= 'Z') {
             System.out.println(letter);
-            letter += 1;
+            letter++;
         }
     }
 }
