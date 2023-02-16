@@ -12,7 +12,6 @@ public class MaximumProductOfAdjacentElements {
         for (int i = 0; i < length; i++) {
             array[i] = scanner.nextInt();
         }
-        //System.out.println(Arrays.toString(array));
 
         int maxProduct = array[0] * array[1];
 
